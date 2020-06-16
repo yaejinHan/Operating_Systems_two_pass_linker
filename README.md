@@ -14,6 +14,6 @@ javac TwoPass.java Definition.java Uses.java
 java TwoPass <../(input file name)
 ```
 <br>
-For instance, 
+For instance, </br>
 java TwoPass <../input-1.txt
 
