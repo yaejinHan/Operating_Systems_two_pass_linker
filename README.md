@@ -15,6 +15,5 @@ java TwoPass <../(input file name)
 ```
 <br>
 For instance, 
-```
 java TwoPass <../input-1.txt
-```
+
