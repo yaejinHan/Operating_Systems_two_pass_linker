@@ -8,12 +8,11 @@ public class Definition {
 	int relAddrs;
 	int baseAddrs;
 	int absAddrs;
-	// its initial value is false.....
+	// its initial value is false
 	boolean multiplyDefined;
 	boolean definedButNotUsed = true; // I'll be changing this input when I'm on my second pass
 	boolean definitionExceedsModuleSize;
 	
-	///// maybe relAddrs and baseAddrs not needed here
 	public Definition(int moduleNum, String symbolName, int relAddrs, int baseAddrs, int absAddrs) {
 		this.moduleNum = moduleNum;
 		this.symbolName = symbolName;
